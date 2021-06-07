@@ -1,4 +1,84 @@
 body
 {
-    background-color: black;
+    background-color: #f2f2f2;
+    margin: 0;
+    min-height: 100vh;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+.card
+{
+    margin: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+h1
+{
+    color: white;
+     margin: 0;
+     font-family: 'Oswald', sans-serif;
+     margin-bottom: 30px;
+}
+.description
+{
+    color: white;
+    margin: 0;
+    line-height: 25px;
+    padding-bottom:35px;
+    font-size: 12px;
+    width: 201px;
+    font-family: 'Rubik', sans-serif;
+
+}
+.colonne1
+{
+    background-color: #e38623;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    padding: 30px;
+}
+.colonne2
+{
+    background-color: #016971;
+    padding: 30px;
+}
+.colonne3
+{
+    background-color: #013f3e;
+    border-bottom-left-radius:2%;
+    border-bottom-right-radius:2%;
+    padding: 30px;
+}
+.parentbouton
+{
+    background-color: white;
+    width: max-content;
+    border-radius: 100px;
+    padding: 15px;
+
+}
+.bouton1
+{
+    color:#e38623;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bouton2
+{
+    color: #016971;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.bouton3
+{
+    color: #013f3e;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
 }
