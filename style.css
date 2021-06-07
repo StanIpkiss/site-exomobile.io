@@ -60,25 +60,38 @@ h1
     padding: 15px;
 
 }
-.bouton1
+.bouton
 {
+    background-color: white;
     color:#e38623;
     margin: 0;
     padding-left: 10px;
     padding-right: 10px;
+    border:0;
+    width: max-content;
+    border-radius: 100px;
+    padding: 15px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+p
+{
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+.orange
+{
+    color:#e38623; 
 }
 
-.bouton2
+.blue
 {
-    color: #016971;
-    margin: 0;
-    padding-left: 10px;
-    padding-right: 10px;
+    color:#016971;
 }
-.bouton3
+
+.green
 {
-    color: #013f3e;
-    margin: 0;
-    padding-left: 10px;
-    padding-right: 10px;
+    color:#013f3e;
 }
