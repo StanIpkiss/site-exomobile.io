@@ -1,6 +1,6 @@
 body
 {
-    background-color: #f2f2f2;
+    background-color: white;
     margin: 0;
     min-height: 100vh;
     justify-content: center;
@@ -97,14 +97,22 @@ p
 }
 
 /* De zéro à 500px, ce code css s'applique :*/
-@media screen and (max-width: 500px) {
-    body {
-        background-color: red;
-    }
-}
-
-@media screen and (min-width: 900px) {
-    body {
-        background-color: green;
-    }
+@media screen and (min-width:900px) 
+{
+   .card
+   {
+       flex-direction: row;
+   }
+   .colonne1
+   {
+       border-top-right-radius: 0;
+   }
+   .colonne2
+   {
+       border-top-left-radius: 0;
+   }
+   .colonne3
+   {
+       border-bottom-left-radius: 0;    
+   }
 }
